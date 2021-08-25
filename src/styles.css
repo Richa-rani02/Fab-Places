@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
+
+.App {
+  text-align: center;
+  background-color: #d1d5db;
+  font-family: "Nunito", sans-serif;
+}
+:root {
+  --primary-color: #1f2937;
+  --off-white: #f3f4f6;
+  --dark-gray: #6b7280;
+  --coral: #ff7f50;
+  --black: #111827;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  background-color: var(--primary-color);
+  text-align: center;
+  padding: 1rem;
+  color: #fff;
+  font-size: xx-large;
+}
+
+p {
+  width: 80%;
+  margin: 1rem auto;
+  text-align: center;
+  font-weight: bold;
+  color: var(--black);
+  font-size: larger;
+}
+
+button {
+  background-color: var(--dark-gray);
+  padding: 0.5rem 0.8rem;
+  margin: 0.5rem;
+  border-radius: 0.2rem;
+  color: #fff;
+  outline: none;
+  border: 1px solid rgb(122, 122, 122);
+  box-shadow: 0px 2px 4px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #d1d5db;
+  color: var(--black);
+  font-weight: bold;
+}
+
+button:active {
+  position: relative;
+  top: 3px;
+  box-shadow: none;
+  color: var(--black);
+  font-weight: bold;
+}
+
+hr {
+  margin: 1rem 0rem 1.5rem 0rem;
+  background-color: var(--black);
+}
+
+.name {
+  font-size: larger;
+  margin-top: 1rem;
+}
+
+.month {
+  font-size: smaller;
+  padding: 1rem;
+}
+
+.container ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.list {
+  padding: 10px 20px 50px 50px;
+}
+
+.img img {
+  width: 200px;
+  height: auto;
+}
+
+@media only screen and (max-width: 1024px) {
+  .container ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
